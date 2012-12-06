@@ -29,6 +29,8 @@ Installation
        toJid VARCHAR(255) NOT NULL, 
        sentDate TIMESTAMP NOT NULL, 
        body TEXT, 
+       latitude varchar(20) NOT NULL,
+       longitude varchar(20) NOT NULL,
        type VARCHAR(10)
     ) ENGINE=MyISAM CHARACTER SET utf8;
 ```
