@@ -15,7 +15,7 @@ Installation
   * Make sure that emysql.app is present in the Emysql/ebin folder. If not build the Emysql module again.
   * In another directory download ejabbed-modules from subversion: svn co https://svn.process-one.net/ejabberd-modules
   * Copy Emysql/ebin/* to your ejabberd-modules (ebin) folder: cp Emysql/ebin/* ejabberd-modules/ejabberd-dev/trunk/ebin/
-  * Download mod_log_chat_mysql5 : git clone https://github.com/candy-chat/mod_log_chat_mysql5.git
+  * Download mod_log_chat_mysql5 : git clone https://github.com/vishnu81/mod_log_chat_mysql5.git
   * Move the mod_log_chat_mysql5 directory into the root of the ejabberd-modules folder
   * Navigate to the mod_log_chat_mysql5 directory in the ejabberd-modules folder and call ./build.sh
   * If successful the module has been compiled and output to ebin/mod_log_chat_mysql5.beam. Copy this file to your ejabberd system ebin folder folder (e.g. /usr/lib/ejabberd/ebin on Debian)
